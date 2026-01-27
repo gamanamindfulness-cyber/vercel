@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import axios from "axios";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Background from "./components/Background.jsx";
 
 // Import Page Components
@@ -133,6 +134,7 @@ const App = () => (
   <>
     <Background />
     <KioskContent />
+    <SpeedInsights />
   </>
 );
 
